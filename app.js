@@ -100,7 +100,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-http.listen(3000, function(){
+http.listen(8080, function(){
 
   console.log('... Servidor em Execução .... at:', Date() );
 

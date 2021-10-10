@@ -2,10 +2,10 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    database: 'cardapio',
-    password: 'root',
+    host: 'mysql.mycardapio.kinghost.net',
+    user: 'mycardapio',
+    database: 'mycardapio',
+    password: 'Rodrigo2012',
     multipleStatements: true
   });
   
